@@ -9,6 +9,7 @@ var ViewStudents = require('ViewStudents');
 var CreateWelcome = require('CreateWelcome');
 var ExportStudentProgress = require('ExportStudentProgress');
 var StudentPanel = require('StudentPanel');
+var PSPreviousVersions = require('PSPreviousVersions');
 
 //Load Foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
@@ -27,7 +28,9 @@ ReactDOM.render(
           <Route path="/ExportStudentProgress" component={ExportStudentProgress} />
           <Route path="/CreateWelcome" component={CreateWelcome} />        
         </Route>
-        <Route path="/Student" component={StudentPanel} />
+        <Route path="/Student" component={StudentPanel}>
+          <Route path="/PSPreviousVersions" component={PSPreviousVersions} />
+        </Route>
       </Route>
   </Router>,
   document.getElementById('app')

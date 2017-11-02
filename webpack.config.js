@@ -33,6 +33,8 @@ module.exports = {
       TopBarLogin:  'app/components/TopBarLogin.jsx',
       TeacherPanel: 'app/components/TeacherPanel.jsx',     
       StudentPanel: 'app/components/StudentPanel.jsx',
+      StudentSideNav: 'app/components/StudentSideNav.jsx',
+      PSPreviousVersions: 'app/components/PSPreviousVersions.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
