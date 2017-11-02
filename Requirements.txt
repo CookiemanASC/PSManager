@@ -1,0 +1,23 @@
+PS Manager Requirements								
+								
+A school must be able to signup (as per freeperiod.co.uk homepage).								
+A user must be able to login.   /							
+A user will belong to the student group or teacher group.								
+A student's homepage will have a replica UCAS personal statement text area.								
+A student will be able to save their progress.								
+A student will not be able to read/edit other's statements by manipulating javascript variables.								
+
+
+A teacher will have a control panel. /								
+A teacher will be able to import a csv file of students e.g. first name, surname, intake, form class, email (optional).	/							
+A teacher csv import will generate user accounts and one-time passwords for students.								
+A teacher will be able to download a spreadsheet of student usernames and one-time passwords. /								
+A teacher will have a view of students e.g. first name, surname, username, formclass, progress, reset password, account active, disable account. /								
+A teacher will be able to download a csv file of student progress.								
+A teacher will be able to create a Welcome page.								
+								
+								
+Not critical								
+A student will be able to access previous versions of their saved progress.								
+A student will be able to mark their statement as complete.								
+A teacher will be able to attach comments to a student's personal statement.								

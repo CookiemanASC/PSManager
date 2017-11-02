@@ -1,0 +1,22 @@
+p {
+    color: #777;
+}
+
+.vertAlign {
+    vertical-align: bottom;
+}
+
+.valign-middle {
+
+    display: table;
+
+    > .columns {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    > .columns, > [class*="column"] + [class*="column"]:last-child {
+        float: none;
+    }
+
+}
